@@ -1,4 +1,4 @@
-
+@media (min-width: 1281px)	{
 
 body	{
 	font-size: 15px;
@@ -268,7 +268,47 @@ body	{
 .page-menu__block-right-text:hover {
 	color: #E51937;
 }
-
 }
 
+@media (max-width: 375px) {
+	
+	.header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 30px;
+	}
 
+	.menu__bar {
+		display: none;
+	}
+
+	.page-header__title {
+		margin: 0 auto;
+		text-align: center;
+		font-size: 50px;
+		margin-bottom: -3px;
+	}
+
+	.page-header__subtitle {
+		text-align: center;
+		font-size: 10px;
+		font-weight: 500;
+		align-items: top;
+		margin: 0 auto;
+	}
+
+	.page-header {
+	max-width: 375px;
+	height: 200px;
+	height: 467px;
+	width: 448px;
+	height: 139px;
+	background-image: url(./img/Tesla-Wordmark-Redd.png);
+	background-position: center;
+
+	
+}
+}
+
+ 
