@@ -1,20 +1,21 @@
+
+
 body	{
 	font-size: 15px;
 	font-family: Montserrat;
 	width: 100%;
+	min-width: 50px;
+	max-width: 1440px;
 }
 
 .header {	
 	height: 51px;
 	margin: 25 0 0 43;
-	min-width: 50px;
-	max-width: 1600px;
 	font: monserrat normal 15px;
 	font-weight: 600;
 	display: flex;
 	align-items: center;
 	margin-bottom:74px;
-
 }
 
 .menu__bar {
@@ -24,7 +25,6 @@ body	{
 	display: flex;
 	vertical-align: middle;
 	align-items: center;
-	border: 1px solid black;
 	margin-right: 30px;
 }
 
@@ -36,6 +36,7 @@ body	{
 .menu__item:hover {
 	color:red;
 	border-bottom: 1px solid red;
+	transition: 0.5s ease-in-out;
 }
 
 .menu__item:first-child {
@@ -69,18 +70,13 @@ body	{
 	margin-right: 258px;
 }
 
-.header__img {
-	right: 30px;
-	display: block;
-	
-}
-
 .page-header {
 	max-width: 1514px;
 	min-width: 50px;
 	height: 200px;
 	height: 467px;
 	background-image: url(./img/Tesla-Wordmark-Redd.png);
+	background-position: center;
 }
 
 .page-header__title {
@@ -132,7 +128,9 @@ body	{
 
 .page-menu__logo {
 	position: absolute;
-	top:10px; 
+	top: 10px; 
+	left: 1px;
+
 }
 
 .page-menu__logo_ellipse {
@@ -218,16 +216,32 @@ body	{
 }
 
 .page-menu__btn {
-	border: 2px solid #E51937;
+	border: 2px solid black;
 	text-align: center;
-	line-height: 40px;
-	
 	height: 40px;
 	width: 160px;
 	font-size: 13px;
-	color: #E51937;
+	color: black;
 	font-weight: bold;
+	background-color: white;
+	color: black;
+	border-color: black;
+}
 
+.page-menu__btn:hover {
+	color: #E51937;
+	border-color: #E51937;
+	transition: 0.5s ease-in-out;
+}
+
+.page-menu__btn:active {
+	color: yellow;
+	border-color: yellow;
+}
+
+.page-menu__btn:visited {
+	color: blue
+	border-color: blue;
 }
 
 .page-menu__vector-block-right {
@@ -247,4 +261,14 @@ body	{
 	font-weight: bold;
 	margin-left: 7px;
 	margin-right: 47px;
+	text-decoration: none;
+	color: black;
 }
+
+.page-menu__block-right-text:hover {
+	color: #E51937;
+}
+
+}
+
+
