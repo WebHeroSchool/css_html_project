@@ -1,6 +1,7 @@
 body	{
 	font-size: 15px;
 	font-family: Montserrat;
+	margin: 0 auto;
 }
 
 @media (min-width: 1281px)	{
@@ -36,6 +37,7 @@ body	{
 .menu__item {
 	color: black;
 	text-decoration: none;
+	font: 600 Montserrat  15px normal;
 }
 
 .menu__item:hover {
@@ -50,7 +52,6 @@ body	{
 .menu__item:nth-child(2) {
 	
 	margin-right: 24px;
-	
 }
 
 .menu__item:nth-child(3) {
@@ -75,6 +76,7 @@ body	{
 	margin-right: 258px;
 }
 
+
 .page-header {
 	max-width: 1514px;
 	min-width: 50px;
@@ -85,6 +87,8 @@ body	{
 }
 
 .page-header__title {
+	font: Montserrat 90px normal;
+	font-weight: 600;
 	margin: 0 auto;
 	max-width: 370px;
 	min-width: 50px;
@@ -97,11 +101,11 @@ body	{
 .page-header__subtitle {
 	max-width: 241px;
 	min-width: 50px;
-	font-size: 15px;
 	margin: 0 auto;
 	text-align: center;
 	vertical-align: center;
 	margin-bottom: 27px;
+	font: Montserrat  15px normal;
 }
 
 .page-main {	
@@ -123,6 +127,7 @@ body	{
 	margin: 152px auto;
 	display: flex;
 	height: 58px;
+
 }
 
 .page-menu__block {
@@ -191,6 +196,10 @@ body	{
 	position: absolute;
 	top: 5px;
 	right: 40px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 35px;
 }
 
 .page-menu__text_middle-right {
@@ -226,11 +235,11 @@ body	{
 	height: 40px;
 	width: 160px;
 	font-size: 13px;
-	color: black;
+	color: #E51937;
 	font-weight: bold;
 	background-color: white;
-	color: black;
-	border-color: black;
+	border-color: #E51937;
+
 }
 
 .page-menu__btn:hover {
@@ -262,20 +271,28 @@ body	{
 }
 
 .page-menu__block-right-text {
-	font-size: 13px;
+	font: Montserrat 13px;
 	font-weight: bold;
 	margin-left: 7px;
 	margin-right: 47px;
 	text-decoration: none;
 	color: black;
+	width: 119px;
 }
 
 .page-menu__block-right-text:hover {
 	color: #E51937;
 }
+
+.page-bottom__arrow {
+	margin: 0 auto;
+	display: block;
+	margin-top: -110px;
 }
 
-@media (max-width: 375px) {
+}
+
+@media (max-width: 1000px) {
 
 .header {
 	display: flex;
@@ -458,12 +475,14 @@ body	{
 }
 .page-menu__block-right-text {
 	font-size: 13px;
+	font-style: normal;
 	font-weight: bold;
+	font-family: Montserrat;
 	text-decoration: none;
 	color: #E51937;
 	margin-right: 24px;
-	font-family: Montserrat;
 }
+	
 
 .page-menu__block-right-text:hover {
 	font-size: 13px;
