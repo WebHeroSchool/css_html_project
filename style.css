@@ -1,798 +1,569 @@
-body	{
-	font-size: 15px;
+body {
 	font-family: Montserrat;
 	margin: 0 auto;
-}
-
-@media (min-width: 1281px)	{
-
-body	{
-	font-size: 15px;
-	font-family: Montserrat;
 	width: 100%;
-	min-width: 50px;
-	max-width: 1440px;
-}
-
-.header {	
-	height: 51px;
-	margin: 25 0 0 43;
-	font: monserrat normal 15px;
-	font-weight: 600;
-	display: flex;
-	align-items: center;
-	margin-bottom: 74px;
-}
-
-.menu__bar {
-	min-width: 50px;
-	max-height: 852px;
-	position: relative;
-	display: flex;
-	vertical-align: middle;
-	align-items: center;
-	margin-right: 30px;
-}
-
-.menu__item {
-	color: black;
-	text-decoration: none;
-	font: 600 Montserrat  15px normal;
-}
-
-.menu__item:hover {
-	color:red;
-	border-bottom: 1px solid red;
-	transition: 0.5s ease-in-out;
-}
-
-.menu__item:first-child {
-	margin-right: 63px;
-}
-.menu__item:nth-child(2) {
-	
-	margin-right: 24px;
-}
-
-.menu__item:nth-child(3) {
-	margin-right: 44px;
-}
-
-.menu__item:nth-child(4) {
-	margin-right: 46px;
-}
-
-.menu__item:nth-child(5) {
-	margin-right: 221px;
-}
-
-.menu__item:nth-child(6) {
-	margin-right: 30px;
-}
-
-
-.header__logo {
-	display: block;
-	margin-right: 258px;
-}
-
-
-.page-header {
-	max-width: 1514px;
-	min-width: 50px;
-	height: 200px;
-	height: 467px;
-	background-image: url(./img/Tesla-Wordmark-Redd.png);
-	background-position: center;
-}
-
-.page-header__title {
-	font: Montserrat 90px normal;
-	font-weight: 600;
-	margin: 0 auto;
-	max-width: 370px;
-	min-width: 50px;
-	font-size: 90px;
-	height: 110px;
-	line-height: 110px;
-	margin-bottom: -10px;
-}
-
-.page-header__subtitle {
-	max-width: 241px;
-	min-width: 50px;
-	margin: 0 auto;
-	text-align: center;
-	vertical-align: center;
-	margin-bottom: 27px;
-	font: Montserrat  15px normal;
-}
-
-.page-main {	
-	max-width: 968px;
-	min-width: 50px;
-	display: flex;
-	justify-content: center;
-}
-
-.page-header__img {
-	display: block;
-	width: 968px;
-	margin: 0 auto;
-}
-
-.page-menu {
-	min-width: 30px;
-	max-width: 792px;
-	margin: 152px auto;
-	display: flex;
-	height: 58px;
-
-}
-
-.page-menu__block {
-	width: 375px;
-	position: relative;
-	margin-right: 105px;
-}
-
-.page-menu__logo {
-	position: absolute;
-	top: 10px; 
-	left: 1px;
-
-}
-
-.page-menu__logo_ellipse {
-	position: absolute;
-	left: 12px;
-	bottom: 13px;
-}
-
-.page-menu__logo_pointer {
-	position: absolute;
-	left:20px;
-	bottom: 18px;
-}
-
-.page-menu__text_big-left {
-	font-size:35px;
-	font-weight: 600;
-	position: absolute;
-	top: 5px;
-	left: 60px;
-}
-
-.page-menu__text_middle-left {
-	font-size: 20px;
-	font-weight: 600;
-	position: absolute;
-	left: 110px;
-	top: 15px;
-}
-
-.page-menu__text_small-left {
-	position: absolute;
-	bottom: 0px;
-	left: 60px;
-	font-size: 12px;
-}
-
-.page-menu__logo-stroke {
-	position: absolute;
-	right: 110px;
-	bottom: 0px;
-}
-
-.page-menu__logo-stroke-white {
-	position: absolute;
-	right: 110px;
-	bottom: 0px;
-}
-
-.page-menu__text_big-right {
-	font-size:35px;
-	font-weight: 600;
-	position: absolute;
-	top: 5px;
-	right: 40px;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 35px;
-}
-
-.page-menu__text_middle-right {
-	font-size: 20px;
-	font-weight: 600;
-	position: absolute;
-	right: 5px;
-	top: 15px;
-}
-
-.page-menu__text_small-right {
-	position: absolute;
-	bottom: 0px;
-	right: 35px;
-	font-size: 12px;
-}
-
-.page-menu__block-right {
-	width: 318px;
-	position: relative;
-	display: flex;
-	align-items: center;
-	
-}
-
-.page-menu__logo-block-right {
-	display: inline-block;
-}
-
-.page-menu__btn {
-	border: 2px solid black;
-	text-align: center;
-	height: 40px;
-	width: 160px;
-	font-size: 13px;
-	color: #E51937;
-	font-weight: bold;
-	background-color: white;
-	border-color: #E51937;
-
-}
-
-.page-menu__btn:hover {
-	color: blue;
-	border-color: blue;
-	transition: 0.5s ease-in-out;
-}
-
-.page-menu__btn:active {
-	color: yellow;
-	border-color: yellow;
-}
-
-
-.page-menu__vector-block-right {
-	position: absolute;
-	left: 3px;
-	top: 26px;
-}
-
-.page-menu__point-block-right {
-	position: absolute;
-	left: 9px;
-	top: 24px;
-}
-
-.page-menu__block-right-text {
-	font: Montserrat 13px;
-	font-weight: bold;
-	margin-left: 7px;
-	margin-right: 47px;
-	text-decoration: none;
-	color: black;
-	width: 119px;
-}
-
-.page-menu__block-right-text:hover {
-	color: #E51937;
-}
-
-.page-bottom__arrow {
-	margin: 0 auto;
-	display: block;
-	margin-top: -110px;
-}
-
-}
-
-@media (min-width: 320px) and (max-width: 414px) {
-
-.body {
-	width: 100%;
-	margin: 0 auto;
 }
 
 .header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 60px;
-	margin: 0 auto;
-}
-
-.header__logo {
-	width: 120px;
-	margin-right: 200px;
-}
-
-.header__img {
-	width: 20px;
-	margin-right: 21px;
-}
+	width: 95%;
+	margin: 0 auto 75px auto;
+	}
 
 .menu__bar {
-	display: none;
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+	font-weight: 600;
 }
 
-.page {
-	margin: 0 auto;
-	width: 375px;	
+.menu__item {
+	text-decoration: none;
+	color: black;
+	padding: 3px;	
+}
+.menu__item:hover {
+	color: #E51937;
+	transition: 1s ease-in;
+	border-bottom: 1px solid #E51937;
 }
 
-.page-header__title {
-	margin: 0 auto;
-	text-align: center;
-	font-size: 50px;
-	margin-bottom: -3px;
-	font-weight: bold;
+.menu__item:hover {
+	color: #E51937;
+	transition: 1s ease-in;
+	border-bottom: 1px solid #E51937;
 }
 
-.page-header__subtitle {
-	text-align: center;
-	font: 10px bold;
-	font-weight: 500;
-	align-items: top;
-	margin: 0 auto;
-	font-weight: bold;
-	margin-bottom: 59px;
-	font-family: Montserrat;
+.menu__bar-right {
+	width: 18%;
+	display: flex;
+	justify-content: space-between;
 }
 
 .page-header {
-	max-width: 375px;
-	height: 219px;
-	background-image: url(./img/Tesla-Wordmark-Redd.png);
-	background-position: bottom;
+	width: 100%;
+	margin: 0 auto;
+	background: url(./img/Tesla-Wordmark-Redd.png);
+	background-position: top;
 	background-repeat: no-repeat;
-	background-size: 110%;
-	margin-right: 0 auto;
-	margin-bottom: 96px;
-	margin-top: 30px;
+	background-size: 100%;
+	margin-bottom: 25px;
 }
 
- .page-header__img {
+.page-header__title {
+	margin: 0 auto -10px auto;
+	font-size: 90px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.page-header__subtitle {
+	margin: 0 auto 45px auto;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.page-header__img {
+	width: 65%;
 	display: block;
-	width: 100%;
 	margin: 0 auto;
 }
 
 .page-menu {
-	width: 284px;
-	height: 53px;
-	margin: 0 auto;
-
+	display: flex;
+	justify-content: space-between;
+	width: 55%;
+	margin: 0px auto 40px auto;
 }
 
-.page-menu__block {
-	width: 284px;
-	height: 53px;
-	position: relative;
-	margin-right: 105px;
-	display: flex;
+.page-menu__block-left {
 	align-items: center;
-	vertical-align: middle;
-	text-align: center;
-	margin-bottom: 43px;
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 45%;
+}
 
+.page-menu__block-left__left {
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 50%;
+}
+
+.page-menu__block-left-img_left {
+	width: auto;
+	position: relative;
+	width: 46px;
+	height: 34px;
+	margin-right: 14px;
+	display: inline-block;
 }
 
 .page-menu__logo {
-	position: absolute;
-	left: 2px;
-	width: 35px;
+	position: absolute;	
 }
 
 .page-menu__logo_ellipse {
 	position: absolute;
-	left: 9px;
-	bottom: 12px;
-	width: 20px;
-	
+	top: 10px;
+	left: 12px;
 }
 
 .page-menu__logo_pointer {
 	position: absolute;
-	left: 17px;
-	bottom: 17px;
-	width: 15px;
+	top: 18px;
+	left: 21px;
 }
 
 .page-menu__text_big-left {
-	font-size:27px;
+	font-size: 35px;
 	font-weight: 600;
+	margin-bottom: 0px;
+}
+
+.page-menu__text_middle-left {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.page-menu__text_small-left {
+	font-size: 12px;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+.page-menu__block-left__right {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 50%;
+	justify-content: flex-end;
+}
+
+.page-menu__block-left-img_right {
+	width: 38px;
+	height: 42px;
+	position: relative;
+	margin-right: 5px;
+}
+
+.page-menu__logo-stroke {
 	position: absolute;
-	top: 5px;
-	left: 50px;
+	left: 0px;
+}
+
+.page-menu__logo-stroke-white {
+	position: absolute;
+	left: 0px;
+}
+
+.page-menu__text_big-right {
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-menu__text_middle-right {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.page-menu__text_small-right {
+	font-size: 12px;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+
+.page-menu__block-right {
+	width: 43%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.page-menu__block-right-img {
+	position: relative;
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	margin-right: 7px;
+}
+
+.page-menu__logo-block-right {
+	position: absolute;
+	display: block;
+}
+
+.page-menu__vector-block-right {
+	position: absolute;
+	top: 8px;
+	left: 3px;
+	display: inline-block;
+}
+
+.page-menu__point-block-right {
+	position: absolute;
+	top: 6px;
+	left: 9px;
+	display: inline-block;
+}
+
+.page-menu__block-right-text {
+	display: inline-block;
+	height: 100%;
+	line-height: 100%;
+	font-weight: 700;
+	text-decoration: none;
+	color: black;
+}
+
+.page-menu__block-right-text:hover {
+	color: #E51937;
+	transition: 1s ease-in;
+}
+
+.page-bottom__arrow {
+	width: auto;
+	margin: 0 auto;
+	display: block;
+}
+
+.page-menu__block-right__left {
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+
+.page-menu__btn {
+	width:  50%;
+	padding: 12px;
+	font-weight: 700;
+	background-color: white;
+	border-color: black;
+}
+
+.page-menu__btn:hover {
+	transition: 1s ease-in;
+	color: #E51937;
+	border-color: #E51937;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+.menu__bar-center {
+	display: none;
+}
+	
+.menu__item {
+	display: none;
+}
+
+.header {
+	width: auto;
+	margin-bottom: 30px;
+}
+
+.header__img {
+	margin: 0 auto;
+	width: 33%;
+}
+
+.page-header__title {
+	font-size: 50px;
+}
+
+.page-header__subtitle {
+	font-size: 10px;
+	font-weight: 500;
+}
+
+.page-header__img {
+		width:100%;
+	}
+
+.page-header {
+	width: 100%;
+	margin: 0 auto;
+	background: url(./img/Tesla-Wordmark-Redd.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 120%;
+	margin-bottom: 25px;
+}
+
+.page-menu {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 75%;
+	margin-bottom: 34px;
+}
+
+.page-menu__block-left {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+} 
+
+.page-menu__block-right {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+} 
+
+.page-menu__text_big-left {
+	align-self: center;
+	font-size: 27px;
+	font-weight: 600;
 }
 
 .page-menu__text_middle-left {
 	font-size: 15px;
 	font-weight: 600;
-	position: absolute;
-	left: 100px;
-	top: 15px;
 }
 
 .page-menu__text_small-left {
-	position: absolute;
-	bottom: 3px;
-	left: 50px;
+	align-self: flex-end;
 	font-size: 10px;
+}
+
+.page-menu__block-left-img_left {
+	width: auto;
+	position: relative;
+	width: 38px;
+	height: 27px;
+	margin-right: 10px;
+}
+
+.page-menu__logo {
+	position: absolute;	
+	width: 38px;
+}
+
+.page-menu__logo_ellipse {
+	position: absolute;
+	top: 10px;
+	width: 17px;
+	left: 10px;
+}
+
+.page-menu__logo_pointer {
+	position: absolute;
+	top: 18px;
+	left: 16px;
+	width: 12px;
+}
+
+.page-menu__block-left__left {
+	width: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;bo
+	width: 50%;
+}
+
+.page-menu__block-left__right {
+	width: 50%;
+}
+
+.page-menu__block-left-img_right {
+	width: 33px;
+	height: 35px;
+	position: relative;
 }
 
 .page-menu__logo-stroke {
 	position: absolute;
-	right: 82px;
-	bottom: 5px;
-	width: 25px;
+	left: 0px;
+	width: 24px;
 }
 
 .page-menu__logo-stroke-white {
 	position: absolute;
-	right: 82px;
-	bottom: 5px;
-	width: 25px;
+	left: 0px;
+	width: 24px;
 }
 
 .page-menu__text_big-right {
 	font-size: 27px;
-	font-weight: 600;
-	position: absolute;
-	top: 5px;
-	right: 30px;
+
 }
 
 .page-menu__text_middle-right {
 	font-size: 15px;
-	font-weight: 600;
-	position: absolute;
-	right: 5px;
-	top: 15px;
 }
 
 .page-menu__text_small-right {
-	position: absolute;
-	bottom: 3px;
-	right: 20px;
 	font-size: 10px;
+	align-self: flex-end;
+	width: 56px;
 }
 
-.page-menu__block-right {
-	height: 40px;
+.page-menu__block-right__left {
+	margin: 0 auto;
+	width: 45%;
 	display: flex;
-	align-items: center;
-	position: relative;
-	margin-bottom: 48px;
+	justify-content: center;
 }
 
-.page-menu__vector-block-right {
-	position: absolute;
-	left: 3px;
-	bottom: 13px;
-}
-
-.page-menu__point-block-right {
-	position: absolute;
-	left: 9px;
-	top: 15px;
-}
-
-.page-menu__logo-block-right {
-	margin-right: 8px;
-}
 .page-menu__block-right-text {
+	display: inline-block;
+	height: 100%;
+	line-height: 100%;
 	font-size: 13px;
-	font-style: normal;
 	font-weight: bold;
-	font-family: Montserrat;
-	text-decoration: none;
 	color: #E51937;
-	margin-right: 24px;
-}
 	
-
-.page-menu__block-right-text:hover {
-	font-size: 13px;
-	font-weight: bold;
-	text-decoration: underline;
-	color: #E51937;
-	margin-right: 24px;
-	font-family: Montserrat;
 }
-
 .page-menu__btn {
-	text-align: center;
-	height: 40px;
-	width: 140px;
 	font-size: 13px;
+	font-weight: bold;
+	background-color: #E51937;
 	color: white;
-	font-weight: bold;
-	background-color: #E51937;
-	border: none;
-	font-family: Montserrat;
-}
-
-.page-menu__btn:hover {
-	text-align: center;
-	height: 42px;
-	width: 141px;
-	font-size: 13px;
-	color: blue;
-	font-weight: bold;
-	background-color: #E51937;
-	border: none;
-	font-family: Montserrat;
-	transition: ease-out 1s;
-}
-
-.page-bottom__arrow {
-	margin-bottom: 100px;
-	margin-top:127px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-
-
-}
-
-@media (min-width: 768px) and (max-width: 1281px) {
-
-.body {
-	width: 100%;
-	margin: 0 auto;
-}
-
-.header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 0 auto;
-	margin-bottom: 80px;
+	font-weight: 500;
+	width: 55%;
 }
 
 .header__logo {
-	width: 166px;
-	margin-right: 200px;
+	width: 33%;
+}
 }
 
-.header__img {
-	width: 35px;
-	margin-right: 21px;
-}
-
-.menu__bar {
+@media (min-width: 768px) and (max-width: 1024px) {
+.menu__item {
 	display: none;
 }
 
-.page {
-	margin: 0 auto;
-	text-align: center;
+.menu__bar-right {
+	display: flex;
+	justify-content: flex-end;
 }
 
-.page-header__title {
-	margin: 0 auto;
-	text-align: center;
-	font-size: 90px;
-	margin-bottom: -3px;
-	font-weight: bold;
+.page-menu__block-left {
+	width: auto;
+	align-items: center;
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 45px;
 }
 
-.page-header__subtitle {
-	text-align: center;
-	font: 15px bold;
-	font-weight: 500;
-	align-items: top;
-	margin: 0 auto;
-	font-weight: bold;
-	margin-bottom: 92px;
-	font-family: Montserrat;
-	width: 241px;
+.page-menu__block-left__left {
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 50%;
+	justify-content: center;
 }
 
-.page-header {
-	max-width: 768px;
-	height: 379px;
-	background-image: url(./img/Tesla-Wordmark-Redd.png);
-	background-position: bottom;
-	background-repeat: no-repeat;
-	background-size: 110%;
-	margin: 0 auto;
-	margin-bottom: 226px;
-}
-
- .page-header__img {
-	display: block;
-	width: 702px;
-	margin: 0 auto;
+.page-menu__block-left__right {
+	display: flex;
+	justify-content: center;
 }
 
 .page-menu {
-	width: 487px;
-	height: 83px;
-	margin: 0 auto;
-	position: relative;
-}
-
-.page-menu__block {
-	width: 284px;
-	height: 53px;
-	margin-right: 105px;
 	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 75%;
+	margin-bottom: 34px;
+	justify-content: center;
 	align-items: center;
-	vertical-align: middle;
-	text-align: center;
-	margin-bottom: 65px;
-}
-
-.page-menu__logo {
-	position: absolute;
-	left: 2px;
-	width: 66px;
-	bottom: 17px;
-}
-
-.page-menu__logo_ellipse {
-	position: absolute;
-	left: 20px;
-	bottom: 20px;
-	width: 30px;
-	
-}
-
-.page-menu__logo_pointer {
-	position: absolute;
-	left: 32px;
-	bottom: 28px;
-	width: 22px;
 }
 
 .page-menu__text_big-left {
+	align-self: center;
 	font-size: 50px;
 	font-weight: 600;
-	position: absolute;
-	top: 0px;
-	left: 80px;
 }
 
 .page-menu__text_middle-left {
 	font-size: 20px;
 	font-weight: 600;
-	position: absolute;
-	left: 155px;
-	top: 19px;
+	vertical-align: middle;
 }
 
 .page-menu__text_small-left {
-	position: absolute;
-	bottom: 3px;
-	left: 80px;
+	align-self: flex-end;
 	font-size: 12px;
 }
 
-.page-menu__logo-stroke {
-	position: absolute;
-	right: 142px;
-	bottom: 7px;
+.page-menu__block-left-img_left {
+	width: auto;
+	position: relative;
 	width: 38px;
+	height: 27px;
+	margin-right: 10px;
 }
 
-.page-menu__logo-stroke-white {
-	position: absolute;
-	right: 142px;
-	bottom: 7px;
-	width: 38px;
+.page-menu__block-right {
+	display: flex;
+	justify-content: space-between;
+	width: 75%;
+	font-size: 16px;
+	font-weight: bold;	background: url("./img/Vector (8).png"), url("./img/Vector (9).png"), url("./img/Vector (10).png");
+	background-repeat: no-repeat;
+	background-position: 0.5% center, 2% 52%, 3.7% 43%;
+
+}
+
+.page-menu__block-right__left {
+	display: flex;
+	justify-content: center;
+	width: 45%;
+}
+
+.page-menu__btn {
+	width: 53%;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #E51937;
+	color: white;
+	padding: 20px;
+	border-color: white;
 }
 
 .page-menu__text_big-right {
 	font-size: 50px;
-	font-weight: 600;
-	position: absolute;
-	top: 0px;
-	right: 45px;
+}
+
+.page-menu__block-right-img {
+	display: none;
 }
 
 .page-menu__text_middle-right {
 	font-size: 20px;
 	font-weight: 600;
-	position: absolute;
-	right: 5px;
-	top: 19px;
+	vertical-align: middle;
 }
 
 .page-menu__text_small-right {
-	position: absolute;
-	bottom: 3px;
-	right: 45px;
-	font-size: 15px;
+	font-size: 12px;
 }
 
-.page-menu__block-right {
-	height: 55px;
-	display: flex;
-	align-items: center;
-	position: relative;
-	margin-bottom: 48px;
+.page-header__img {
+	width: 95%;
 }
 
-.page-menu__vector-block-right {
-	position: absolute;
-	left: 44px;
-	bottom: 20px;
-	width: 19px;
+.page-header {
+	background-position: 50% 35%;
+	background-size: 110%;
 }
 
-.page-menu__point-block-right {
-	position: absolute;
-	left: 59px;
-	top: 23px;
-}
-
-.page-menu__logo-block-right {
-	margin-right: 1px;
-	width: 30px;
-	position: absolute;
-	left: 39px;
-}
-.page-menu__block-right-text {
-	font-size: 16px;
+.page-header__subtitle {
+	margin-bottom: 86px;
+	font-weight: 500;
 	font-style: normal;
-	font-weight: bold;
-	font-family: Montserrat;
-	text-decoration: none;
-	color: #E51937;
-	margin-right: 40px;
-	margin-left: 85px;
-}
-	
-
-.page-menu__block-right-text:hover {
-	font-size: 16px;
-	font-weight: bold;
-	text-decoration: underline;
-	color: #E51937;
-	font-family: Montserrat;
-}
-
-.page-menu__btn {
-	text-align: center;
-	height: 55px;
-	width: 240px;
-	font-size: 16px;
-	color: white;
-	font-weight: bold;
-	background-color: #E51937;
-	border: none;
-	font-family: Montserrat;
-	width: 250px;
-}
-
-.page-menu__btn:hover {
-	text-align: center;
-	height: 42px;
-	width: 141px;
-	font-size: 13px;
-	color: blue;
-	font-weight: bold;
-	background-color: #E51937;
-	border: none;
-	font-family: Montserrat;
-	transition: ease-out 1s;
-}
-
-.page-bottom__arrow {
-	margin-bottom: 100px;
-	margin-top: 167px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
 }
 
 
-}
-
-
- 

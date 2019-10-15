@@ -5,23 +5,24 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1.0, width=device-width">
 	<link rel="stylesheet" href="./fonts.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./style.css">
 </head>
 	<body>
 		<header class="header">
 			<img src="./img/Tesla-Wordmark-Red.png" alt="tesla_wordmark_red" class="header__logo">
-				<nav class="menu__bar">
+				<nav class="menu__bar menu__bar-center">
 					<a href="" class="menu__item">Model S</a>
 					<a href="" class="menu__item">Model X</a>
 					<a href="" class="menu__item">Model 3</a>
 					<a href="" class="menu__item">Roadster</a>
 					<a href="" class="menu__item">Energy</a>
+				</nav>
+				<nav class="menu__bar menu__bar-right">
 					<a href="" class="menu__item">Магазин</a>
 					<a href="" class="menu__item">Войти</a>
+					<img src="./img/Vector.png" alt="vector" class="header__img">
 				</nav>
-			<img src="./img/Vector.png" alt="vector" class="header__img">
-		</header>
+			</header>
 		<section class="page">
 			<div class="page-header">
 				<h1 class="page-header__title">Model S</h1>
@@ -30,25 +31,43 @@
 			</div>			
 			<div class="page-bottom">
 				<div class="page-menu">
-					<div class="page-menu__block">
-						<img src="./img/Vector (2).png" alt="vector1" class="page-menu__logo">
-						<img src="./img/Ellipse.png" alt="vector2" class="page-menu__logo_ellipse">
-						<img src="./img/Vector (3).png" alt="vector3" class="page-menu__logo_pointer">
-						<span class="page-menu__text_big-left">2,7</span>
-						<span class="page-menu__text_middle-left">сек</span>
-						<span class="page-menu__text_small-left">0-100 км/час</span>
-						<img src="./img/Vector (Stroke).png" alt="vector(stroke)" class="page-menu__logo-stroke">
-						<img src="./img/Vectorwhite.png" alt="vector(stroke)" class="page-menu__logo-stroke-white">
-						<span class="page-menu__text_big-right">632</span>
-						<span class="page-menu__text_middle-right">км</span>
-						<span class="page-menu__text_small-right">запас хода</span>
-					</div>
-					<div class="page-menu__block-right">
-						<img src="./img/Vector (4).png" alt="vector4" class="page-menu__logo-block-right">
-						<img src="./img/Vector (5).png" alt="vector5" class="page-menu__vector-block-right">
-						<img src="./img/Vector (6).png" alt="vector6" class="page-menu__point-block-right">
-						<a href="#" class="page-menu__block-right-text">ТЕСТ ДРАЙВ</a>
-						<button class="page-menu__btn">ЗАКАЗАТЬ</button>
+					<div class="page-menu__block-left">
+						<div class="page-menu__block-left__left">
+							<div class ="page-menu__block-left-img_left">
+								<img src="./img/Vector (2).png" alt="vector1" class="page-menu__logo">
+								<img src="./img/Ellipse.png" alt="vector2" class="page-menu__logo_ellipse">
+								<img src="./img/Vector (3).png" alt="vector3" class="page-menu__logo_pointer">
+							</div>
+							<div>
+							<h1 class="page-menu__text page-menu__text_big-left">2,7
+							<span class="page-menu__text page-menu__text_middle-left">сек</span></h1>
+							<p class="page-menu__text page-menu__text_small-left">0-100 км/час</p>
+							</div>
+						</div>
+						<div class="page-menu__block-left__right">
+							<div class="page-menu__block-left-img_right">
+								<img src="./img/Vector (Stroke).png" alt="vector(stroke)" class="page-menu__logo-stroke">
+								<img src="./img/Vectorwhite.png" alt="vector(stroke)" class="page-menu__logo-stroke-white">
+							</div>
+							<div>
+								<h1 class="page-menu__text_big-right">632
+								<span class="page-menu__text_middle-right">км</span>
+								</h1>
+								<p class="page-menu__text_small-right">запас хода</p>
+							</div>
+							</div>
+						</div>
+						<div class="page-menu__block-right">
+							<div class="page-menu__block-right__left">
+								<div class="page-menu__block-right-img">
+									<img src="./img/Vector (4).png" alt="vector4" class="page-menu__logo-block-right">
+									<img src="./img/Vector (5).png" alt="vector5" class="page-menu__vector-block-right">
+									<img src="./img/Vector (6).png" alt="vector6" class="page-menu__point-block-right">
+								</div>
+								<a href="#" class="page-menu__block-right-text">ТЕСТ ДРАЙВ</a>
+							</div>
+							<button class="page-menu__btn">ЗАКАЗАТЬ</button>
+						</div>
 					</div>
 					</div>
 				</div>
