@@ -2,6 +2,7 @@ body {
 	font-family: Montserrat;
 	margin: 0 auto;
 	width: 100%;
+	max-width: 1440px;
 }
 
 .header {
@@ -55,10 +56,10 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	background: url(./img/Tesla-Wordmark-Redd.png);
-	background-position: top;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 110%;
 	margin-bottom: 25px;
+	background-position: 50% 20%;
 }
 
 .page-header__title {
@@ -69,15 +70,14 @@ body {
 }
 
 .page-header__subtitle {
-	margin: 0 auto 45px auto;
+	margin: 0 auto 60px auto;
 	text-align: center;
 	font-size: 15px;
 	font-weight: 600;
 }
 
-
 .page-header__img {
-	width: 65%;
+	width: 70%;
 	display: block;
 	margin: 0 auto;
 }
@@ -85,7 +85,7 @@ body {
 .page-menu {
 	display: flex;
 	justify-content: space-between;
-	width: 55%;
+	width: 65%;
 	margin: 0px auto 40px auto;
 }
 
@@ -94,8 +94,8 @@ body {
 	width: auto;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	width: 45%;
+	justify-content: center;
+	width: 50%;
 }
 
 .page-menu__block-left__left {
@@ -104,6 +104,7 @@ body {
 	flex-direction: row;
 	align-items: center;
 	width: 50%;
+	justify-content: flex-end;
 }
 
 .page-menu__block-left-img_left {
@@ -153,7 +154,7 @@ body {
 	flex-direction: row;
 	align-items: center;
 	width: 50%;
-	justify-content: flex-end;
+	justify-content: center;
 }
 
 .page-menu__block-left-img_right {
@@ -171,6 +172,30 @@ body {
 .page-menu__logo-stroke-white {
 	position: absolute;
 	left: 0px;
+}
+
+.page-menu__logo-point_top {
+	position: absolute;
+	top: -2px;
+	right: 8px;
+}
+
+.page-menu__logo-point-white_top {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
+
+.page-menu__logo-point_bottom {
+	position: absolute;
+	bottom: -4px;
+	left: 2px;
+}
+
+.page-menu__logo-point-white_bottom {
+	position: absolute;
+	left: 4px;
+	bottom: -2px;
 }
 
 .page-menu__text_big-right {
@@ -192,7 +217,7 @@ body {
 
 
 .page-menu__block-right {
-	width: 43%;
+	width: 45%;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -236,6 +261,7 @@ body {
 	font-weight: 700;
 	text-decoration: none;
 	color: black;
+	font-family: montserrat;
 }
 
 .page-menu__block-right-text:hover {
@@ -253,15 +279,17 @@ body {
 	width: 50%;
 	display: flex;
 	align-items: center;
+	justify-content: flex-start;
 }
 
 .page-menu__btn {
-	width:  50%;
+	width:  35%;
 	padding: 12px;
 	font-weight: 700;
 	background-color: white;
-	border-color: #E51937;
+	border: 2px solid #E51937;
 	color: #E51937;
+	padding: 10px;
 }
 
 .page-menu__btn:hover {
@@ -307,8 +335,8 @@ body {
 }
 
 .page-header__img {
-		width:100%;
-	}
+	width:100%;
+}
 
 .page-header {
 	width: 100%;
@@ -415,6 +443,30 @@ body {
 	position: absolute;
 	left: 0px;
 	width: 24px;
+}
+
+.page-menu__logo-point_top {
+	position: absolute;
+	top: -2px;
+	right: 8px;
+}
+
+.page-menu__logo-point-white_top {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
+
+.page-menu__logo-point_bottom {
+	position: absolute;
+	bottom: -4px;
+	left: 2px;
+}
+
+.page-menu__logo-point-white_bottom {
+	position: absolute;
+	left: 4px;
+	bottom: -2px;
 }
 
 .page-menu__text_big-right {
@@ -684,6 +736,30 @@ body {
 	margin-bottom: 86px;
 	font-weight: 500;
 	font-style: normal;
+}
+
+.page-menu__logo-point_top {
+	position: absolute;
+	top: -2px;
+	right: 1px;
+}
+
+.page-menu__logo-point-white_top {
+	position: absolute;
+	top: 0px;
+	right: 3px;
+}
+
+.page-menu__logo-point_bottom {
+	position: absolute;
+	bottom: -4px;
+	left: 10px;
+}
+
+.page-menu__logo-point-white_bottom {
+	position: absolute;
+	left: 12px;
+	bottom: -2px;
 }
 
 

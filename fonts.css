@@ -30,7 +30,7 @@
     src: url('./fonts/Montserrat-bold.eot?#iefix') format('embedded-opentype'),
         url('./fonts/Montserrat-bold.woff2') format('woff2'),
         url('./fonts/Montserrat-bold.woff') format('woff'),
-        url('./fonts/Montserrat-bold.ttf') format('truetype'),
+        url('./fonts/montserrat-bold-webfont.ttf') format('truetype'),
         url('./fonts/Montserrat-bold.svg#Montserrat-Regular') format('svg'),
         url('./fonts/Montserrat-bold.otf') format('opentype');
      	font-weight: 700;
