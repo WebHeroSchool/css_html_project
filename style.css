@@ -527,6 +527,12 @@ body {
 	vertical-align: middle;
 }
 
+.aside-bottom__link-left:hover {
+	color: black;
+	border-color: black;
+	transition: 1s ease-in;
+}
+
 .aside-bottom__link-right {
 	border: 2px solid white;
 	padding: 10px 30px;
@@ -536,6 +542,12 @@ body {
 	font-weight: bold;
 	font-size: 13px;
 	line-height: 16px;
+}
+
+.aside-bottom__link-right:hover {
+	color: black;
+	border-color: black;
+	transition: 1s ease-in-out;
 }
 
 .section {
@@ -836,15 +848,99 @@ body {
 .section-main-content__text_bottom {
 	align-self: flex-end;
 }
+
+.body-content__img {
+	display: none;
 }
 
+.section-main__content_left-small {
+	display: none;
+}
 
+.section-main__content_top-small {
+	display: none;
+}
+
+.section-main__content_bottom-small {
+	display: none;
+}
+
+.section-main-content__img_small {
+	display: none;
+}
+
+.section-mobile {
+	display: none;
+}
+
+.body-content__img_middle {
+	display: none;
+}
+
+.section-main__content_left-middle {
+	display: none;
+}
+
+.section-main__content_top-middle {
+	display: none;
+}
+
+.section-main__content_bottom-middle {
+	display: none;
+} 
+
+.section-main-content__img_middle {
+	display: none;
+}
 @media (min-width: 320px) and (max-width: 767px) {
+
 .menu__bar-center {
 	display: none;
 }
 	
 .menu__item {
+	display: none;
+}
+
+.list {
+	display: none;
+}
+
+.aside-bottom {
+	display: none;
+}
+
+.section-article {
+	display: none;
+}
+
+.section-main__content_left {
+	display: none;
+}
+
+.section-main__content_top {
+	display: none;
+}
+
+.section-main__content_bottom {
+	display: none;
+}
+
+.section-main-content__img {
+	display: none;
+}
+
+.body {
+	display: none;
+}
+
+.section {
+	display: none;
+}
+
+/*DELETE HERE*/
+
+.body-content__title {
 	display: none;
 }
 
@@ -1084,6 +1180,223 @@ body {
 }
 
 .body {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border: 2px solid pink;
+	background-image: none;
+}
+
+.body-content {
+	border: 1px solid blue;
+	background: url(./img/2013-tesla-model-s-cockpit.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	display: flex;
+}
+
+.body-aside {
+	width: 100%;
+	border: 2px solid green;
+	display: flex;
+	height: auto;
+}
+
+.body-content__img {
+	display: block;
+}
+
+.body-aside__title {
+	margin: 0 auto;
+	margin: 20px auto;
+}
+
+.body__text {
+	margin: 0 auto;
+	width: 82%;
+	margin-bottom: 20px;
+}
+
+.body-aside__header {
+	text-align: justify-all;
+}
+
+.section-main {
+	width: 100%;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: none;
+	
+}
+
+.section-main__wrapper {
+	display: flex;
+	width: 100%;
+	border: 6px solid yellow;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	 
+}
+
+.section-main-content__image {
+    display: none;
+      
+}
+
+.section-mobile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.section-mobile__image {
+	margin: 0;
+}
+
+.section-mobile__image_img {
+	margin-bottom: -5px;
+	width: 100%;
+}
+
+.section-mobile__article {
+	width: 100%;
+	display: flex;
+	border: 1px solid black;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #E51937;
+	margin: 0;
+	padding-bottom: 25px;
+}
+
+.section-mobile__content {
+	border: 1px solid red;
+	height: 500px;
+	background-image: url(./img/Model-S-1.png);
+	background-repeat: no-repeat;
+	background-position: 55% 5%;
+	background-size: 100%;
+}
+
+.section-main__wrapper {
+	border: 1px solid black;
+	position: relative;
+	padding-top: 50%;
+	padding-bottom:   25%;
+	margin: auto;
+
+}
+
+.section-main-content__img_small {
+	display: block;
+	padding: 50px 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	size: 100%;
+}
+
+.section-main__content_left-small {
+	display: block;
+	border: 1px solid purple;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    width: 25%;
+}
+
+.section-main__content_left-small-img-small {
+	display: flex;
+    align-self: flex-end;
+    margin-left: -5px;
+}
+.section-main__content_top-small {
+	display: block;
+	border: 1px solid purple;
+    position: absolute;
+    top: 33px;
+    left: 185px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    width: 20%;
+}
+
+.section-main__content_top-small-img-small {
+	display: flex;
+	align-self: flex-end;
+	margin-left: -5.5px;
+	margin-right: 3px;
+}
+
+.section-main__content_bottom-small {
+	display: block;
+	border: 1px solid purple;
+    position: absolute;
+    top: 175px;
+    left: 206px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    width: 25%;
+}
+
+
+.section-main__content_bottom-small-img-small {
+	display: flex;
+	align-self: flex-start;
+	margin-left: -5.5px;
+	margin-right: 3px;
+}
+
+
+.section-main-content__text_small {
+	display: flex;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 7px;
+	margin: 0;
+	align-self: flex-start;
+}
+
+.section-main-content__text_bottom-small {
+	align-self: flex-end;
+	margin-bottom: -10px;
+	line-height: 6px;
+}
+
+
+.section-mobile__footer {
+	width: 100%;
+	display: flex;
+	border: 1px solid black;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #E51937;
+	margin: 0;
+	padding-bottom: 80px;
+}
+
+.article-header__text_small {
+	padding: 0px 0px;
+	margin: 0px 25px 0px 30px;
+	text-align: justify-all;
+}
+
+.body {
 	display: none;
 }
 
@@ -1091,15 +1404,18 @@ body {
 	display: none;
 }
 
-.section-main-content__img {
-	display: none;
-}
-
-
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 .menu__item {
+	display: none;
+}
+
+.body {
+	display: none;
+}
+
+.section {
 	display: none;
 }
 
@@ -1310,7 +1626,16 @@ body {
 }
 
 .body {
-	display: none;
+	display: flex;
+	flex-direction: column;
+	background: none;
+}
+
+.body-content {
+	width: 100%;
+	border: 1px solid black;
+	position: relative;
+
 }
 
 .section {
@@ -1321,4 +1646,273 @@ body {
 	display: none;
 }
 
+.body-content__img {
+	display: none;
+}
+
+.body-content__img_middle {
+	display: block;
+	margin: 0;
+}
+
+.body-content__title {
+	text-align: right;
+	margin: 0 auto;
+	width: auto;
+	border: 1px solid black;
+	position: absolute;
+	right: 50px;
+}
+
+.body-aside {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding-top: 10px;
+	justify-content: space-around;
+	position: relative;
+	height: 450px;
+}
+
+.body-aside__header {
+	width: 50%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	border: 1px solid black;
+	margin-top: 25px;
+
+}
+
+.body-aside__title {
+	text-align: left;
+	border: 1px solid black;
+	width: 75%;
+	margin: 0 auto;
+	margin-right: 60px;
+	margin-bottom: 15px;
+
+}
+
+.body__text {
+	margin-left: 35px;
+	border: 1px solid black;
+	padding-right: 45px;
+	text-align: all;
+}
+
+.list {
+	margin: 0;
+	padding-top: 25px;
+	height: auto;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.list__item:nth-child(1) {
+	margin: 0px auto;
+	margin-bottom: 25px;
+}
+.list__item:nth-child(2) {
+	margin: 0px auto;
+	margin-bottom: 15px;
+}
+
+.list__item:nth-child(3) {
+	border: 1px solid black;
+	margin-top: 0;
+}
+
+.aside-bottom {
+	display: flex;
+	position: absolute;
+	bottom: 25px;
+	height: 100%;
+	border: 1px solid black;
+	height: auto;
+	width: 75%;
+	justify-content: space-between;
+}
+
+.list__title_big {
+	margin-right: 5px;
+}
+
+.aside-bottom__block-right {
+	justify-content: center;
+}
+
+.aside-bottom__link-left {
+	font-size: 16px;
+}
+
+.aside-bottom__link-right {
+	font-size: 16px;
+	padding: 15px 50px;
+}
+
+
+
+.section {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.section-article {
+	width: 100%;
+}
+
+.section-main {
+	height: 500px;
+	background: url("./img/Model S (2).png");
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: 50% 15%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.section-main-content__img_middle {
+	border: 1px solid black;
+	align-self: flex-end;
+	vertical-align: bottom;
+	display: flex;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+.section-main__content_left {
+	display: none;
+}
+
+.section-main__content_top {
+	display: none;
+}
+
+.section-main__content_bottom {
+	display: none;
+}
+
+
+.article-footer__block-top {
+	display: none;
+}
+
+.section-article {
+	flex-direction: row;
+	height: 500px;
+	position: relative;
+}
+
+.article-header {
+	width: 50%;
+	justify-content: flex-start;
+}
+
+.article-header__title {
+	margin-top: 35px;
+}
+
+.aside-bottom {
+	position: absolute;
+	left: 80px;
+}
+
+.article-main {
+ 	width: 50%;
+ 	justify-content: center;
+}
+
+.article-main__list_item {
+	margin: 0 ;
+	
+}
+
+.article-main__title {
+	margin-top: -25px;
+	margin-bottom: 10px;
+}
+
+.article-header__text {
+	width: 90%;
+	margin: 0 auto;
+	margin-left: 25px;
+}
+
+.section-main__content_left-middle {
+	display: flex;
+	border: 1px solid black;
+	position: absolute;
+	bottom: 215px;
+	left: 190px;
+	flex-direction: row;
+	align-items: flex-end;
+	width: 25%;
+}
+
+.section-main__content_left-small-img-middle {
+	margin-left: -8px;
+	margin-right: 5px;
+}
+
+.section-main-content__text_left-middle {
+	align-self: flex-start;
+	margin: 0;
+}
+
+.section-main__content_top-middle {
+	display: flex;
+	border: 1px solid black;
+	position: absolute;
+	top:  60px;
+	left: 390px;
+	flex-direction: row;
+	align-items: flex-end;
+	width: 25%;
+}
+
+.section-main__content_top-small-img-middle {
+	margin-left: -8px;
+	margin-right: 5px;
+}
+
+.section-main-content__text_top-middle {
+	align-self: flex-start;
+	margin: 0;
+}
+
+
+.section-main__content_bottom-middle {
+	display: flex;
+	border: 1px solid black;
+	position: absolute;
+	bottom:  70px;
+	left: 430px;
+	flex-direction: row;
+	align-items: flex-end;
+	width: 25%;
+}
+
+.section-main__content_bottom-small-img-middle {
+	margin-left: -8px;
+	margin-right: 5px;
+	align-self: flex-start;
+}
+
+.section-main-content__text_bottom-middle {
+	align-self: flex-end;
+	border: 1px solid black;
+	margin: 0;
+	margin-bottom: -20px;
+}
+
+.section-main-content__text_middle {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 13px;
+}
+
+}
 
