@@ -551,7 +551,7 @@ body {
 }
 
 .section {
-	border: 1px solid purple;
+
 	display: flex;
 	flex-direction: row;
 	position: relative;
@@ -562,14 +562,14 @@ body {
 .section-article {
 	display: flex;
 	width: 30%;
-	border: 1px solid black;
+
 	flex-direction: column;
 	justify-content: space-around;
 	background-color: #E51937;
 }
 
 .article-header {
-	border: 1px solid black;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -577,7 +577,7 @@ body {
 }
 
 .article-header__title {
-	border: 1px solid black;
+
 	text-align: center;
 	font-style: normal;
 	font-weight: 600;
@@ -588,7 +588,7 @@ body {
 }
 
 .article-header__text {
-	border: 1px solid black;
+
 	width: auto;
 	text-align: justify-all;
 	font-size: 13px;
@@ -601,16 +601,13 @@ body {
 }
 
 .article-main {
-	border: 1px solid black;
+
 	display: flex;
 }
 
-.article-footer {
-	border: 1px solid black;
-}
 
 .section-main {
-	border: 1px solid black;
+
 	width: 70%;
 	position: relative;
 }
@@ -621,7 +618,7 @@ body {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	border: 2px solid white;
+	
 	width: auto;
 	margin-bottom: 100px;
 }
@@ -630,7 +627,7 @@ body {
 	font-style: normal;
 	font-weight: 600;
 	font-size: 30px;
-	border: 1px solid black;
+	
 	margin-right: 35px;
 	color: #FFFFFF;
 
@@ -640,9 +637,9 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	border: 1px solid black;
+
 	width: 70%;
-	border: 1px solid black;
+
 	margin: 0 auto;
 	align-items: center;
 }
@@ -661,14 +658,14 @@ body {
 	line-height: 12px;
 }
 .article-main__list-img-block {
-	border: 1px solid black;
+	
 	display: flex;
 	align-items: center;
 	padding-top: 0px;
 }
 
 .article-main__list_img {
-	border: 1px solid black;
+
 	display: flex;
 	align-items: center;
 }
@@ -678,13 +675,13 @@ body {
 	flex-direction: row;
 	justify-content: center;
 	width: 75%;
-	border: 1px solid black;
+
 	margin: 0 auto;
 	padding-bottom: 60px;
 }
 
 .article-footer__block-top-img {
-	border: 1px solid black;
+
 	position: relative;
 	width: 25%;
 }
@@ -704,7 +701,7 @@ body {
 	font-style: normal;
 	font-weight: 600;
 	font-size: 50px;
-	border: 1px solid black;
+	
 	margin: 0;
 	color: #FFFFFF;
 	vertical-align: baseline;
@@ -714,7 +711,7 @@ body {
 	font-style: normal;
 	font-weight: 600;
 	font-size: 25px;
-	border: 1px solid black;
+
 	margin: 0;
 	color: #FFFFFF;
 }
@@ -767,7 +764,7 @@ body {
 }
 
 .section-main {
-	border: 2px solid black;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -784,10 +781,11 @@ body {
 	display: block;
 	max-width: 100%;
 	z-index: 0;
+	width: 100%;
 }
 
 .section-main__content_left {
-	border: 1px solid purple;
+	
 	position: absolute;
 	top: 240px;
 	left: 170px;
@@ -810,7 +808,7 @@ body {
 }
 
 .section-main__content_top {
-	border: 1px solid purple;
+
 	position: absolute;
 	top: 200px;
 	left: 447px;
@@ -828,7 +826,7 @@ body {
 }
 
 .section-main__content_bottom {
-	border: 1px solid purple;
+	
 	position: absolute;
 	top: 600px;
 	left: 500px;
@@ -1184,12 +1182,12 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	border: 2px solid pink;
+	
 	background-image: none;
 }
 
 .body-content {
-	border: 1px solid blue;
+	
 	background: url(./img/2013-tesla-model-s-cockpit.png);
 	background-repeat: no-repeat;
 	width: 100%;
@@ -1198,7 +1196,7 @@ body {
 
 .body-aside {
 	width: 100%;
-	border: 2px solid green;
+	
 	display: flex;
 	height: auto;
 }
@@ -1224,7 +1222,7 @@ body {
 
 .section-main {
 	width: 100%;
-	border: 2px solid black;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -1235,7 +1233,7 @@ body {
 .section-main__wrapper {
 	display: flex;
 	width: 100%;
-	border: 6px solid yellow;
+	
 	position: relative;
 	align-items: center;
 	justify-content: center;
@@ -1265,7 +1263,7 @@ body {
 .section-mobile__article {
 	width: 100%;
 	display: flex;
-	border: 1px solid black;
+
 	flex-direction: column;
 	justify-content: space-around;
 	background-color: #E51937;
@@ -1274,7 +1272,7 @@ body {
 }
 
 .section-mobile__content {
-	border: 1px solid red;
+
 	height: 500px;
 	background-image: url(./img/Model-S-1.png);
 	background-repeat: no-repeat;
@@ -1283,7 +1281,7 @@ body {
 }
 
 .section-main__wrapper {
-	border: 1px solid black;
+
 	position: relative;
 	padding-top: 50%;
 	padding-bottom:   25%;
@@ -1297,12 +1295,13 @@ body {
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	size: 100%;
+	
+	width: 100%;
 }
 
 .section-main__content_left-small {
 	display: block;
-	border: 1px solid purple;
+	
     position: absolute;
     top: 50px;
     left: 90px;
@@ -1321,7 +1320,7 @@ body {
 }
 .section-main__content_top-small {
 	display: block;
-	border: 1px solid purple;
+	
     position: absolute;
     top: 33px;
     left: 185px;
@@ -1342,7 +1341,7 @@ body {
 
 .section-main__content_bottom-small {
 	display: block;
-	border: 1px solid purple;
+	
     position: absolute;
     top: 175px;
     left: 206px;
@@ -1382,7 +1381,7 @@ body {
 .section-mobile__footer {
 	width: 100%;
 	display: flex;
-	border: 1px solid black;
+	
 	flex-direction: column;
 	justify-content: space-around;
 	background-color: #E51937;
@@ -1633,7 +1632,7 @@ body {
 
 .body-content {
 	width: 100%;
-	border: 1px solid black;
+
 	position: relative;
 
 }
@@ -1659,7 +1658,7 @@ body {
 	text-align: right;
 	margin: 0 auto;
 	width: auto;
-	border: 1px solid black;
+	
 	position: absolute;
 	right: 50px;
 }
@@ -1680,14 +1679,14 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	border: 1px solid black;
+	
 	margin-top: 25px;
 
 }
 
 .body-aside__title {
 	text-align: left;
-	border: 1px solid black;
+	
 	width: 75%;
 	margin: 0 auto;
 	margin-right: 60px;
@@ -1697,7 +1696,7 @@ body {
 
 .body__text {
 	margin-left: 35px;
-	border: 1px solid black;
+	
 	padding-right: 45px;
 	text-align: all;
 }
@@ -1720,7 +1719,7 @@ body {
 }
 
 .list__item:nth-child(3) {
-	border: 1px solid black;
+
 	margin-top: 0;
 }
 
@@ -1729,7 +1728,7 @@ body {
 	position: absolute;
 	bottom: 25px;
 	height: 100%;
-	border: 1px solid black;
+
 	height: auto;
 	width: 75%;
 	justify-content: space-between;
@@ -1774,14 +1773,7 @@ body {
 	justify-content: flex-end;
 }
 
-.section-main-content__img_middle {
-	border: 1px solid black;
-	align-self: flex-end;
-	vertical-align: bottom;
-	display: flex;
-	margin: 0 auto;
-	margin-bottom: 25px;
-}
+
 .section-main__content_left {
 	display: none;
 }
@@ -1839,10 +1831,17 @@ body {
 	margin: 0 auto;
 	margin-left: 25px;
 }
-
+.section-main-content__img_middle {
+	
+	align-self: flex-end;
+	vertical-align: bottom;
+	display: flex;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
 .section-main__content_left-middle {
 	display: flex;
-	border: 1px solid black;
+
 	position: absolute;
 	bottom: 215px;
 	left: 190px;
@@ -1863,7 +1862,7 @@ body {
 
 .section-main__content_top-middle {
 	display: flex;
-	border: 1px solid black;
+
 	position: absolute;
 	top:  60px;
 	left: 390px;
@@ -1885,7 +1884,7 @@ body {
 
 .section-main__content_bottom-middle {
 	display: flex;
-	border: 1px solid black;
+
 	position: absolute;
 	bottom:  70px;
 	left: 430px;
@@ -1902,7 +1901,7 @@ body {
 
 .section-main-content__text_bottom-middle {
 	align-self: flex-end;
-	border: 1px solid black;
+
 	margin: 0;
 	margin-bottom: -20px;
 }
