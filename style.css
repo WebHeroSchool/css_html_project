@@ -258,10 +258,14 @@ body {
 	display: inline-block;
 	height: 100%;
 	line-height: 100%;
-	font-weight: 700;
+	
 	text-decoration: none;
 	color: black;
-	font-family: montserrat;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
 }
 
 .page-menu__block-right-text:hover {
