@@ -529,7 +529,7 @@ body {
 	padding: 10px;
 	display: inline-block;
 	vertical-align: middle;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .aside-bottom__link-left:hover {
@@ -547,7 +547,7 @@ body {
 	font-weight: bold;
 	font-size: 13px;
 	line-height: 16px;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .aside-bottom__link-right:hover {
@@ -643,9 +643,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-
 	width: 70%;
-
 	margin: 0 auto;
 	align-items: center;
 }
@@ -655,7 +653,7 @@ body {
 	font-weight: bold;
 	font-size: 17px;
 	color: #FFFFFF;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .article-main__list-text_small {
@@ -1751,11 +1749,13 @@ body {
 
 .aside-bottom__link-left {
 	font-size: 16px;
+	font-weight: 600;
 }
 
 .aside-bottom__link-right {
 	font-size: 16px;
 	padding: 15px 50px;
+	font-weight: 600;
 }
 
 
