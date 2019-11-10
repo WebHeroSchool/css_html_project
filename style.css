@@ -529,6 +529,7 @@ body {
 	padding: 10px;
 	display: inline-block;
 	vertical-align: middle;
+	font-weight: 700;
 }
 
 .aside-bottom__link-left:hover {
@@ -546,6 +547,7 @@ body {
 	font-weight: bold;
 	font-size: 13px;
 	line-height: 16px;
+	font-weight: 700;
 }
 
 .aside-bottom__link-right:hover {
@@ -653,6 +655,7 @@ body {
 	font-weight: bold;
 	font-size: 17px;
 	color: #FFFFFF;
+	font-weight: 700;
 }
 
 .article-main__list-text_small {
