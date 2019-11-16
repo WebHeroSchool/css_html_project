@@ -681,7 +681,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	width: 75%;
+	width: 85%;
 	margin: 0 auto;
 	padding-bottom: 50px;
 }
@@ -707,10 +707,11 @@ body {
 	font-style: normal;
 	font-weight: 600;
 	font-size: 50px;
-	
+	text-align: center;
 	margin: 0;
 	color: #FFFFFF;
 	vertical-align: baseline;
+	min-width: 200px;
 }
 
 .article-footer__text {
@@ -782,26 +783,49 @@ body {
 	position: relative;
 }
 
-.section-main-content__image {
+/*.section-main-content__image {
 	position: absolute;
 	top: 235px;
 	left: -100px;
 	display: block;
-	max-width: 100%;
 	z-index: 0;
 	width: 100%;
 }
+*/
+
+.section-main__wrapper {
+    margin: 0;
+    width: auto;
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: flex-end;
+  	background-image: url(./img/Carframe.png);  
+  	background-repeat: no-repeat;
+  	height: 525px;
+  	width: auto;
+  	margin-left: -100px;
+  	position: relative;
+  	margin-top: 100px;
+  	
+}
+
+.section-main-content__img {
+	border: 1px solid black;
+	width: 100%;
+	display: none;
+}
 
 .section-main__content_left {
-	
-	position: absolute;
-	top: 240px;
-	left: 170px;
+	top:  10px;
+	left: 270px;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: row;
 	align-items: center;
 	z-index: 1;
+	width: auto;
+	height: 52%;
+	position: absolute;
 }
 
 .section-main-content__text_left {
@@ -816,15 +840,14 @@ body {
 }
 
 .section-main__content_top {
-
-	position: absolute;
-	top: 200px;
-	left: 447px;
+	height: 25%;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: row;
 	align-items: center;
-	z-index: 1;
+	position: absolute;
+	top: -45px;
+	left: 547px;
 }
 
 .section-main__content_top-small-img {
@@ -834,15 +857,18 @@ body {
 }
 
 .section-main__content_bottom {
-	
-	position: absolute;
-	top: 600px;
-	left: 500px;
+	height: 25%;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: row;
 	align-items: center;
 	z-index: 1;
+	align-self: flex-end;
+	width: 30%;
+	position: absolute;
+	left: 603px;
+	bottom: 30px;
+
 }
 
 .section-main__content_bottom-small-img {
@@ -898,6 +924,8 @@ body {
 .section-main-content__img_middle {
 	display: none;
 }
+
+
 @media (min-width: 320px) and (max-width: 767px) {
 
 .menu__bar-center {
@@ -944,6 +972,9 @@ body {
 	display: none;
 }
 
+.section-main__wrapper {
+	background-image: none;
+}
 /*DELETE HERE*/
 
 .body-content__title {
@@ -1289,6 +1320,7 @@ body {
   	display: flex;
   	flex-direction: column;
   	justify-content: center;
+  	height: auto;
 }
 
 .section-main-content__img_small {
@@ -1426,6 +1458,10 @@ body {
 
 .section {
 	display: none;
+}
+
+.section-main__wrapper {
+	background-image: none;
 }
 
 .menu__bar-right {
@@ -1880,7 +1916,7 @@ body {
 .section-main__content_top-middle {
 	display: flex;
 	position: absolute;
-	top:  -25px;
+	top:  75px;
 	left: 375px;
 	flex-direction: row;
 	align-items: flex-end;
