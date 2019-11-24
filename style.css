@@ -364,6 +364,7 @@ body {
 	margin: 0 auto;
 	margin-bottom: 10px;
 	max-width: 325px;
+	min-width: 320px;
 }
 
 .main__text {
@@ -372,10 +373,9 @@ body {
 	font-weight: 400;
 	font-size: 15px;
 	color: #FFFFFF;
-	width: 82%;
 	margin: 0 auto;
 	text-align: left;
-	max-width: 315px;
+	max-width: 310px;
 }
 
 .list {
@@ -597,7 +597,7 @@ body {
 	margin: auto;
 	margin-top: 20px;
 	margin-bottom: 0;
-	max-width: 320px;
+	max-width: 325px;
 	min-width: 320px;
 
 }
@@ -615,7 +615,7 @@ body {
 	width: 85%;
 	height: 200px;
 	min-width: 300px;
-	max-width: 325px;
+	max-width: 315px;
 }
 
 .article-main {
@@ -1311,7 +1311,8 @@ body {
 	width: 75%;
 	margin-bottom: 20px;
 	text-align: left;
-	max-width: 300px;
+	max-width: 310px;
+	min-width: 310px;
 }
 
 .main-aside__header {
@@ -1420,7 +1421,7 @@ body {
 	padding: 0px 0px;
 	margin: 0px auto;
 	text-align: justify-all;
-	width: 82%;
+	
 }
 
 .main {
@@ -1719,7 +1720,7 @@ body {
 }
 
 .main-aside__title {
-	width: auto;
+	width: 85%;
 	margin: 0 auto;
 	margin-bottom: 15px;
 	text-align: center;
@@ -1729,9 +1730,9 @@ body {
 	margin-left: 0px;
 	padding-right: 0px;
 	width: auto;
-	max-width: 300px;
-	text-align: justify-all;
+	max-width: 315px;
 	margin: 0 auto;
+	
 }
 
 .list {
